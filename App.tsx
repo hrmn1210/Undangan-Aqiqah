@@ -16,12 +16,12 @@ const App: React.FC = () => {
 
   const invitationData = {
     childName: "Muhammad Al Fatih",
-    fatherName: "Budi Setiawan",
-    motherName: "Siti Rahayu",
+    fatherName: "Rido Alfa Rizky",
+    motherName: "Mesi",
     guestName: "Bapak/Ibu/Saudara/i",
-    eventDate: "2024-12-25T10:00:00",
-    address: "Jl. Bahagia Selalu No. 123, Jakarta",
-    mapsLink: "https://maps.app.goo.gl/HAjG8Zkud4eYd7Nq6",
+    eventDate: "2025-10-26T10:00:00",
+    address: "Jl.Purnajaya 1 Jalur II",
+    mapsLink: "https://maps.app.goo.gl/zj9d9V7zZShQD3aE8",
   };
 
   const handleOpenInvitation = useCallback(() => {
