@@ -3,12 +3,12 @@ import { Expand, X } from "./Icons";
 
 const Gallery: React.FC = () => {
   const images = [
-    "/public/hero.png",
-    "/public/hero.png",
-    "/public/hero.png",
-    "/public/hero.png",
-    "/public/hero.png",
-    "/public/hero.png",
+    "/hero.png",
+    "/hero.png",
+    "/hero.png",
+    "/hero.png",
+    "/hero.png",
+    "/hero.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
