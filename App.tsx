@@ -16,12 +16,12 @@ const App: React.FC = () => {
 
   const invitationData = {
     childName: "Muhammad Al Fatih",
-    fatherName: "Ridho Alfa Rizki",
-    motherName: "Mesi",
+    fatherName: "Budi Setiawan",
+    motherName: "Siti Rahayu",
     guestName: "Bapak/Ibu/Saudara/i",
-    eventDate: "2025-10-26T10:00:00",
-    address: "Jl. Purnajaya 1 Jalur II, No.28",
-    mapsLink: "https://maps.app.goo.gl/agt4PS9oJdgr5YZ56",
+    eventDate: "2024-12-25T10:00:00",
+    address: "Jl. Bahagia Selalu No. 123, Jakarta",
+    mapsLink: "https://maps.app.goo.gl/HAjG8Zkud4eYd7Nq6",
   };
 
   const handleOpenInvitation = useCallback(() => {
@@ -80,11 +80,7 @@ const App: React.FC = () => {
         <Closing childName={invitationData.childName} />
       </main>
       <MusicPlayer isPlaying={isPlaying} onTogglePlay={togglePlay} />
-      <audio
-        ref={audioRef}
-        src="https://firebasestorage.googleapis.com/v0/b/invitation-digital-f9112.appspot.com/o/sound%2FA%20Thousand%20Years%20-%20Christina%20Perri.mp3?alt=media&token=c130327f-2736-4076-90e9-b57d07963d11"
-        loop
-      />
+      <audio ref={audioRef} src="/musik.mp3" loop />
     </div>
   );
 };
