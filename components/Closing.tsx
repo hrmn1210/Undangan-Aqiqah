@@ -8,7 +8,7 @@ const Closing: React.FC<ClosingProps> = ({ childName }) => {
   return (
     <section
       className="relative py-24 px-6 text-center text-white bg-cover bg-center"
-      style={{ backgroundImage: "url('/assets/hero.png')" }}
+      style={{ backgroundImage: "url('/public/hero.png')" }}
     >
       <div className="absolute inset-0 bg-[#3A5A40]/80"></div>
       <div className="relative z-10 max-w-xl mx-auto">
