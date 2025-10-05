@@ -78,7 +78,7 @@ const Gift: React.FC = () => {
               Scan QRIS
             </h3>
             <img
-              src="/public/hero.png"
+              src="/hero.png"
               alt="QRIS Code"
               className="mx-auto w-[200px] h-[200px]"
             />

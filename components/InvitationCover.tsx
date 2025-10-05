@@ -15,7 +15,7 @@ const InvitationCover: React.FC<InvitationCoverProps> = ({
   return (
     <div
       className="fixed inset-0 bg-cover bg-center flex flex-col items-center justify-center p-6 text-center text-white"
-      style={{ backgroundImage: "url('/public/hero.png')" }}
+      style={{ backgroundImage: "url('/hero.png')" }}
     >
       <div className="absolute inset-0 bg-[#3A5A40]/70 backdrop-blur-sm"></div>
       <div className="relative z-10 flex flex-col items-center justify-between h-full w-full">
